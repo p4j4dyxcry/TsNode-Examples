@@ -18,6 +18,8 @@ namespace ExampleApp
         public bool CanExecute(object parameter) => true;
 
         public void Execute(object parameter) => _action.Invoke((T)parameter);
+
+        public void RaiseCanExecute() => CanExecuteChanged?.Invoke(this,EventArgs.Empty);
     }
 
     public class MainWindowViewModel

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\勇希\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\勇希\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_TsNode-Examples.-1152745066.00" t="ExcludeRecursive" />
+    <e p="D:\repository\TsNode-Examples" t="IncludeFlat">
+      <e p="ExampleApp" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ExampleApp.csproj" t="IncludeRecursive" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="MainWindowViewModel.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net462" t="Include">
+              <e p="App.g.cs" t="Include" />
+              <e p="GeneratedInternalTypeHelper.g.cs" t="Include" />
+              <e p="MainWindow.g.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+      </e>
+      <e p="ExampleApp2" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ConnectionViewModel.cs" t="Include" />
+        <e p="ExampleApp2.csproj" t="IncludeRecursive" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="MainWindowVm.cs" t="Include" />
+        <e p="NetworkViewModel.cs" t="Include" />
+        <e p="NodeViewModel.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net472" t="Include">
+              <e p="App.g.cs" t="Include" />
+              <e p="GeneratedInternalTypeHelper.g.cs" t="Include" />
+              <e p="MainWindow.g.cs" t="Include" />
+            </e>
+            <e p="netcoreapp3.1" t="Include">
+              <e p="App.g.cs" t="Include" />
+              <e p="GeneratedInternalTypeHelper.g.cs" t="Include" />
+              <e p="MainWindow.g.cs" t="Include" />
+              <e p="Template.g.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PlugViewModel.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Template.xaml" t="Include" />
+        <e p="UndoRedoKeyBehavior.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Ts.Controls" t="IncludeRecursive">
+        <e p="AttachBehaviors" t="Include">
+          <e p="ButtonService.cs" t="Include" />
+          <e p="TextBlockSelectableService.cs" t="Include" />
+          <e p="TextBoxService.cs" t="Include" />
+          <e p="WatermarkService.cs" t="Include" />
+        </e>
+        <e p="Behaviors" t="Include">
+          <e p="BindableBehavior.cs" t="Include" />
+          <e p="DoubleClickBehavior.cs" t="Include" />
+          <e p="HighlightTextBlockBehavior.cs" t="Include" />
+          <e p="ItemsControlAutoScrollBehavior.cs" t="Include" />
+          <e p="ItemsControlFilterBehavior.cs" t="Include" />
+          <e p="StyleBehaviorCollection.cs" t="Include" />
+          <e p="SwipeScrollBehavior.cs" t="Include" />
+          <e p="TextBoxIntellisenseBehavior.cs" t="Include" />
+          <e p="TextBoxSelectAllBehavior.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controls" t="Include">
+          <e p="LabeledControl.cs" t="Include" />
+        </e>
+        <e p="Converters" t="Include">
+          <e p="BoolToAnyConverter.cs" t="Include" />
+        </e>
+        <e p="EventListeners" t="Include">
+          <e p="CollectionChangedListener.cs" t="Include" />
+          <e p="PropertyChangedListener.cs" t="Include" />
+          <e p="SingleEventListener.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net462" t="Include">
+              <e p="GeneratedInternalTypeHelper.g.cs" t="Include" />
+            </e>
+            <e p="netcoreapp3.1" t="Include">
+              <e p="GeneratedInternalTypeHelper.g.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Styles" t="Include">
+          <e p="DarkStyle.xaml" t="Include" />
+          <e p="Internal" t="Include">
+            <e p="Brushes.xaml" t="Include" />
+            <e p="Button.xaml" t="Include" />
+            <e p="CheckBox.xaml" t="Include" />
+            <e p="ComboBox.xaml" t="Include" />
+            <e p="Expander.xaml" t="Include" />
+            <e p="GridSplitter.xaml" t="Include" />
+            <e p="ItemsControl.xaml" t="Include" />
+            <e p="LabeledControl.xaml" t="Include" />
+            <e p="ListBox.xaml" t="Include" />
+            <e p="ListView.xaml" t="Include" />
+            <e p="ScrollViewer.xaml" t="Include" />
+            <e p="Styles.xaml" t="Include" />
+            <e p="TextBlock.xaml" t="Include" />
+            <e p="TextBox.xaml" t="Include" />
+            <e p="ToolTip.xaml" t="Include" />
+          </e>
+        </e>
+        <e p="Ts.Controls.csproj" t="IncludeRecursive" />
+        <e p="VisualTreeExtensions.cs" t="Include" />
+      </e>
+      <e p="Ts.Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Collections" t="Include">
+          <e p="InfiniteList.cs" t="Include" />
+          <e p="LinqEx.cs" t="Include" />
+        </e>
+        <e p="Foundation" t="Include">
+          <e p="CompositeDisposable.cs" t="Include" />
+          <e p="DisposableExtensions.cs" t="Include" />
+          <e p="EnumerableExtensions.cs" t="Include" />
+          <e p="ExpressionPropertyAccessorCache.cs" t="Include" />
+          <e p="FastReflection.cs" t="Include" />
+          <e p="Logger.cs" t="Include" />
+          <e p="Property" t="Include">
+            <e p="BindableProperty.cs" t="Include" />
+            <e p="IProperty.cs" t="Include" />
+            <e p="IPropertyBuilder.cs" t="Include" />
+            <e p="Notification.cs" t="Include" />
+            <e p="PropertyBuilder.cs" t="Include" />
+            <e p="TypeAbstractionConverter.cs" t="Include" />
+          </e>
+          <e p="PropertyAccesser.cs" t="Include" />
+          <e p="Reactive" t="Include">
+            <e p="AnonymousObservable.cs" t="Include" />
+            <e p="CombineLatestObserver.cs" t="Include" />
+            <e p="DelayObserver.cs" t="Include" />
+            <e p="DoObserver.cs" t="Include" />
+            <e p="EventObserver.cs" t="Include" />
+            <e p="Extensions.cs" t="Include" />
+            <e p="MergeObserver.cs" t="Include" />
+            <e p="Observable.cs" t="Include" />
+            <e p="ObserverProduct.cs" t="Include" />
+            <e p="OfTypeObserver.cs" t="Include" />
+            <e p="SelectObserver.cs" t="Include" />
+            <e p="StartWithObserver.cs" t="Include" />
+            <e p="SubscribeHandler.cs" t="Include" />
+            <e p="ThrottleObserver.cs" t="Include" />
+            <e p="WhereObserver.cs" t="Include" />
+            <e p="ZipObserver.cs" t="Include" />
+          </e>
+          <e p="SpeedChecker.cs" t="Include" />
+        </e>
+        <e p="Mvvm" t="Include">
+          <e p="Bindable.cs" t="Include" />
+          <e p="DelegateCommand.cs" t="Include" />
+          <e p="PropertyObserver.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Operation" t="Include">
+          <e p="CompositeOperation.cs" t="Include" />
+          <e p="DelegateOperation.cs" t="Include" />
+          <e p="IMergeJudge.cs" t="Include" />
+          <e p="Internal" t="Include">
+            <e p="CapacityStack.cs" t="Include" />
+            <e p="ErrorMessages.cs" t="Include" />
+            <e p="UndoStack.cs" t="Include" />
+          </e>
+          <e p="IOperation.cs" t="Include" />
+          <e p="IOperationController.cs" t="Include" />
+          <e p="ListOperation.cs" t="Include" />
+          <e p="MergeableOperation.cs" t="Include" />
+          <e p="OperationBuilder.cs" t="Include" />
+          <e p="OperationBuilderInterfaces.cs" t="Include" />
+          <e p="OperationBuilderInternal.cs" t="Include" />
+          <e p="OperationController.cs" t="Include" />
+          <e p="OperationControllerExtensions.cs" t="Include" />
+          <e p="OperationExtensions.cs" t="Include" />
+          <e p="ThrottleMergeJudge.cs" t="Include" />
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Ts.Core.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TsNode-Examples.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
