@@ -40,3 +40,8 @@ Microsoft.CSharp
 
 Microsoft.Xaml.Behaviors.Wpf
 - https://www.nuget.org/packages/Microsoft.Xaml.Behaviors.Wpf/
+
+## (Gripper Sample)[https://github.com/p4j4dyxcry/TsNode-Examples/tree/master/Example-Node-Size-Changed]
+ノードのサイズを変更するサンプルプログラムです。
+
+![](https://github.com/p4j4dyxcry/TsNode-Examples/blob/master/ScreenShots/gripper.gif)
