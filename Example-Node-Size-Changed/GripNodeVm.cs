@@ -1,6 +1,6 @@
-﻿using TsNode.Preset;
+﻿﻿﻿using TsNode.Preset;
 
-namespace WpfApp2
+  namespace Example_Node_Size_Changed
 {
     public class GripNodeVm : PresetNodeViewModel
     {
@@ -18,6 +18,11 @@ namespace WpfApp2
         {
             get => _h;
             set => RaisePropertyChangedIfSet(ref _h, value);
+        }
+
+        public GripNodeVm()
+        {
+            
         }
     }
 }

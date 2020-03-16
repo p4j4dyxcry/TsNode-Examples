@@ -6,11 +6,6 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Remove="GripNodeVm.cs" />
-    <Compile Remove="Gripper.cs" />
-    <Compile Remove="GripperBehavior.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="TsNode" Version="1.0.2" />
+    <PackageReference Include="TsNode" Version="1.0.3" />
   </ItemGroup>
 </Project>
