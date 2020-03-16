@@ -2,7 +2,7 @@
 
 [TsNode](https://github.com/p4j4dyxcry/TsNode)の利用例です。
 
-## ExampleApp
+## [ExampleApp](https://github.com/p4j4dyxcry/TsNode-Examples/tree/master/ExampleApp)
 - .NetFramework 4.6.2
 
 TsNode組み込み用の最低限の実装です。
@@ -13,7 +13,7 @@ TsNode組み込み用の最低限の実装です。
 ![](https://cdn-ak.f.st-hatena.com/images/fotolife/a/at12k313/20200312/20200312014138.png)
 
 
-## ExampleApp2
+## [ExampleApp2](https://github.com/p4j4dyxcry/TsNode-Examples/tree/master/ExampleApp2)
 - .NetFramework 4.7.2 , .Net Core 3.1
 
 MVVMパターンで実装したサンプルアプリケーションです。
