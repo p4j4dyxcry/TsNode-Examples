@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ts.Controls", "Ts.Controls\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example-Node-Size-Changed", "Example-Node-Size-Changed\Example-Node-Size-Changed.csproj", "{2CBB2EE0-90C3-42DA-B8BD-64D1AD2CA26B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_Customize_ScrollViewer", "Example_Customize_ScrollViewer\Example_Customize_ScrollViewer.csproj", "{486580D2-9911-42DE-957C-2C43350C3FB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{2CBB2EE0-90C3-42DA-B8BD-64D1AD2CA26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CBB2EE0-90C3-42DA-B8BD-64D1AD2CA26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CBB2EE0-90C3-42DA-B8BD-64D1AD2CA26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{486580D2-9911-42DE-957C-2C43350C3FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{486580D2-9911-42DE-957C-2C43350C3FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{486580D2-9911-42DE-957C-2C43350C3FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{486580D2-9911-42DE-957C-2C43350C3FB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
