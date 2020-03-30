@@ -11,6 +11,7 @@ namespace Ts.Core.Foundation.Reactive
         {
             Debug.Assert(predicate != null);
             _predicate = predicate;
+            InitializeSubscribe();
         }
 
         public override void OnNext(T value)
