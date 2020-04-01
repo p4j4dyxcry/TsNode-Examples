@@ -6,6 +6,6 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="TsNode" Version="1.0.4" />
+    <PackageReference Include="TsNode" Version="1.0.5" />
   </ItemGroup>
 </Project>
