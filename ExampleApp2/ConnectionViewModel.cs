@@ -1,7 +1,5 @@
-﻿using System.Reactive.Linq;
-using Reactive.Bindings;
-using Ts.Core.Operation;
-using TsNode.Preset;
+﻿using TsNode.Preset;
+using TsOperationHistory;
 
 namespace WpfApp1
 {

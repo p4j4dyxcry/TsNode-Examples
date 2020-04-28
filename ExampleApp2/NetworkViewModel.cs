@@ -6,10 +6,10 @@ using System.Windows.Input;
 using Livet;
 using Reactive.Bindings;
 using Ts.Core.Foundation.Property;
-using Ts.Core.Operation;
-using Ts.Core.Operation.Extensions;
 using TsNode.Controls;
 using TsNode.Interface;
+using TsOperationHistory;
+using TsOperationHistory.Extensions;
 
 namespace WpfApp1
 {

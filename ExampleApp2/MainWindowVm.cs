@@ -9,8 +9,8 @@ using Livet;
 using Livet.Commands;
 using Reactive.Bindings;
 using Reactive.Bindings.Extensions;
-using Ts.Core.Operation;
-using Ts.Core.Operation.Extensions;
+using TsOperationHistory;
+using TsOperationHistory.Extensions;
 
 namespace WpfApp1
 {

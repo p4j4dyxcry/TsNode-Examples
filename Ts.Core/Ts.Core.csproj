@@ -5,4 +5,7 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <LangVersion>7.2</LangVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="TsOperationHistory" Version="1.0.2" />
+  </ItemGroup>
 </Project>

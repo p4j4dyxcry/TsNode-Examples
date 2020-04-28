@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Ts.Core.Operation;
+using TsOperationHistory;
 
 namespace Ts.Core.Foundation.Property
 {
