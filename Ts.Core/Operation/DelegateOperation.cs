@@ -19,7 +19,7 @@ namespace Ts.Core.Operation
             _rollback = rollback;            
         }
 
-        public string Messaage { get; set; }
+        public string Message { get; set; }
 
         public void RollForward()
         {
@@ -45,7 +45,7 @@ namespace Ts.Core.Operation
             _newValue = newValue;
         }
 
-        public string Messaage { get; set; }
+        public string Message { get; set; }
 
         public void RollForward()
         {

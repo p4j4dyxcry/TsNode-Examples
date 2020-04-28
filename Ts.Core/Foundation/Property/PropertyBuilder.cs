@@ -7,6 +7,7 @@ using System.Linq;
 using System.Reflection;
 using Ts.Core.Operation;
 using Ts.Core.Collections;
+using Ts.Core.Operation.Extensions;
 
 namespace Ts.Core.Foundation.Property
 {

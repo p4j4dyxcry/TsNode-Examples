@@ -7,6 +7,7 @@ using Livet;
 using Reactive.Bindings;
 using Ts.Core.Foundation.Property;
 using Ts.Core.Operation;
+using Ts.Core.Operation.Extensions;
 using TsNode.Controls;
 using TsNode.Interface;
 
@@ -33,7 +34,7 @@ namespace WpfApp1
                     .CombineOperations(connecions.ToAddOperation(e.ConnectionDataContext))
                     .ToCompositeOperation();
 
-                operation.Messaage = "コネクション接続";
+                operation.Message = "コネクション接続";
 
                 if (removeOperation.IsEmpty())
                     operation.ExecuteTo(@operator);
@@ -63,7 +64,7 @@ namespace WpfApp1
 
                 var operation = connecions
                     .ToRemoveRangeOperation(removeConnections);
-                operation.Messaage = "コノクションの削除";
+                operation.Message = "コノクションの削除";
                 return operation;
             }
         }

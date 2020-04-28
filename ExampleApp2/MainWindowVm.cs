@@ -10,6 +10,7 @@ using Livet.Commands;
 using Reactive.Bindings;
 using Reactive.Bindings.Extensions;
 using Ts.Core.Operation;
+using Ts.Core.Operation.Extensions;
 
 namespace WpfApp1
 {
@@ -22,7 +23,7 @@ namespace WpfApp1
 
         public OperationVm(IOperation operation , IOperationController controller )
         {
-            Name = operation.Messaage;
+            Name = operation.Message;
             GotoCommand = new ViewModelCommand(()=>controller.MoveTo(operation));
             IsRedo = controller.Operations.All(x=> x!= operation);
         }

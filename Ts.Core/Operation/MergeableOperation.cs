@@ -58,7 +58,7 @@ namespace Ts.Core.Operation
             MergeJudge = mergeJudge;
         }
 
-        public string Messaage { get; set; }
+        public string Message { get; set; }
 
         public void RollForward()
         {
@@ -122,7 +122,7 @@ namespace Ts.Core.Operation
                     return new MergeableOperation(postOperation._rollForward,prevOperation._rollBack,postOperation.MergeJudge);
                 }
 
-                return Operation.Empty;
+                return Extensions.Operation.Empty;
             }
             return new MergeableOperation(postOperation._rollForward, prevOperation._rollBack, postOperation.MergeJudge);
         }
@@ -153,7 +153,7 @@ namespace Ts.Core.Operation
             MergeJudge = mergeJudge;
         }
 
-        public string Messaage { get; set; }
+        public string Message { get; set; }
 
         public void RollForward()
         {
@@ -216,7 +216,7 @@ namespace Ts.Core.Operation
                         postOperation.MergeJudge);
                 }
 
-                return Operation.Empty;
+                return Extensions.Operation.Empty;
             }
             return new MergeableOperation<T>(postOperation.Setter, 
                 postOperation.Property, 

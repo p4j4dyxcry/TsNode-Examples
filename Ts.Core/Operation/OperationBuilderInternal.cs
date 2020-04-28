@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using Ts.Core.Operation.Extensions;
 using Ts.Core.Operation.Internal;
 
 namespace Ts.Core.Operation
@@ -102,7 +103,7 @@ namespace Ts.Core.Operation
                 Debug.Assert(_canBuild,ErrorMessages.InvalidOperation);
                 var operation = new MergeableOperation<T>(_function, _new, _prev, _mergeJudge)
                 {
-                    Messaage = _name
+                    Message = _name
                 };
                 return _eventEventBinder.BindEvents(operation);
             }
@@ -126,7 +127,7 @@ namespace Ts.Core.Operation
 
                 _sender = sender;
                 _propertyName = propertyName;
-                _throttleTimeSpan = Operation.DefaultMergeSpan;
+                _throttleTimeSpan = Extensions.Operation.DefaultMergeSpan;
             }
 
             public IBuilderFromNewValue<T> NewValue(T newValue)
@@ -166,8 +167,8 @@ namespace Ts.Core.Operation
             {
                 Debug.Assert(_canBuild, ErrorMessages.InvalidOperation);
 
-                var operation = _sender.GenerateSetOperation(_propertyName, _newValue, _throttleTimeSpan);
-                operation.Messaage = _name;
+                var operation = _sender.GenerateSetPropertyOperation(_propertyName, _newValue, _throttleTimeSpan);
+                operation.Message = _name;
                 return _eventEventBinder.BindEvents(operation);
             }
         }
@@ -335,7 +336,7 @@ namespace Ts.Core.Operation
 
             public IOperationBuilder Message(string name)
             {
-                _operation.Messaage = name;
+                _operation.Message = name;
                 return this;
             }
 
@@ -386,7 +387,7 @@ namespace Ts.Core.Operation
 
             public IMergeableOperationBuilder SetActionName(string executeAction, string rollbackAction)
             {
-                _mergeableOperation.Messaage = executeAction;
+                _mergeableOperation.Message = executeAction;
                 return this;
             }
         }

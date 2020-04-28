@@ -38,7 +38,7 @@ namespace Ts.Core.Operation
         public ThrottleMergeJudge(T key)
         {
             Key = key;
-            ConvergeTimeSpan = Operation.DefaultMergeSpan;
+            ConvergeTimeSpan = Extensions.Operation.DefaultMergeSpan;
         }
 
         public IMergeJudge Update(IMergeJudge prevMergeJudge)

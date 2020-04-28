@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Ts.Core.Operation.Internal;
 
 namespace Ts.Core.Operation
 {
@@ -45,7 +46,7 @@ namespace Ts.Core.Operation
 
         public IMergeableOperationBuilder MakeMergeable(Action execute, Action rollback, object key)
         {
-            return MakeThrottle(execute, rollback, key, Operation.DefaultMergeSpan);
+            return MakeThrottle(execute, rollback, key, Extensions.Operation.DefaultMergeSpan);
         }
 
         /// <summary>

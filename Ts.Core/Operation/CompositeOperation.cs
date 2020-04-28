@@ -24,7 +24,7 @@ namespace Ts.Core.Operation
             Add(operations);
         }
 
-        public string Messaage { get; set; }
+        public string Message { get; set; }
 
         public void RollForward()
         {

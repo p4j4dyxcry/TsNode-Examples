@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 
-namespace Ts.Core.Operation
+namespace Ts.Core.Operation.Extensions
 {
     public static class OperationControllerExtensions
     {
@@ -70,6 +72,6 @@ namespace Ts.Core.Operation
             controller.Flush();
             operations.ForEach(x => controller.Push(x));
         }
-
     }
+
 }
