@@ -1,9 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp3.0;net462</TargetFrameworks>
+    <TargetFrameworks>netcoreapp3.1;net462</TargetFrameworks>
     <OutputType>Library</OutputType>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <LangVersion>7.2</LangVersion>
+    <RootNamespace>Ts.Core</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="TsOperationHistory" Version="1.0.2" />

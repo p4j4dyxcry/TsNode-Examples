@@ -7,8 +7,8 @@
     <RootNamespace>WpfApp1</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Ts.Controls\Ts.Controls.csproj" />
-    <ProjectReference Include="..\Ts.Core\Ts.Core.csproj" />
+    <ProjectReference Include="..\MvvmFoundation\MvvmFoundation.csproj" />
+    <ProjectReference Include="..\WpfFoundation\WpfFoundation.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="LivetCask">
@@ -24,7 +24,7 @@
       <Version>4.3.2</Version>
     </PackageReference>
     <PackageReference Include="TsNode">
-      <Version>1.0.5</Version>
+      <Version>1.0.6</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

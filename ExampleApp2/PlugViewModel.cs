@@ -1,5 +1,5 @@
 ﻿using TsNode.Interface;
-using TsNode.Preset;
+using TsNode.Preset.ViewModels;
 using TsOperationHistory;
 
 namespace WpfApp1
@@ -20,8 +20,6 @@ namespace WpfApp1
 
     public class PlugViewModel2 : PlugViewModel
     {
-        public string Name { get; set; }
-
         public PlugViewModel2(IOperationController controller) : base(controller)
         {
         }

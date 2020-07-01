@@ -1,6 +1,6 @@
-﻿﻿﻿using TsNode.Preset;
+﻿using TsNode.Preset.ViewModels;
 
-  namespace Example_Node_Size_Changed
+namespace Example_Node_Size_Changed
 {
     public class GripNodeVm : PresetNodeViewModel
     {
@@ -22,7 +22,6 @@
 
         public GripNodeVm()
         {
-            
         }
     }
 }

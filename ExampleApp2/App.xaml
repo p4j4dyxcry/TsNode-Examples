@@ -7,7 +7,7 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/Ts.Controls;component/Styles/DarkStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/WpfFoundation;component/Styles/DarkStyle.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/TsNode;component/Template.xaml" />
                 <ResourceDictionary Source="Template.xaml" />
             </ResourceDictionary.MergedDictionaries>

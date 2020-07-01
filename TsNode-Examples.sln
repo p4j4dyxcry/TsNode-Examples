@@ -4,13 +4,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleApp", "ExampleApp\Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleApp2", "ExampleApp2\ExampleApp2.csproj", "{260043A2-0AF4-4CBD-BE82-48B17D82F250}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ts.Core", "Ts.Core\Ts.Core.csproj", "{9C8381CB-12C8-4828-B370-569C9628B523}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmFoundation", "MvvmFoundation\MvvmFoundation.csproj", "{9C8381CB-12C8-4828-B370-569C9628B523}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ts.Controls", "Ts.Controls\Ts.Controls.csproj", "{ABF5D138-0BE4-4153-A7A5-F9CEE5F7ADF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfFoundation", "WpfFoundation\WpfFoundation.csproj", "{ABF5D138-0BE4-4153-A7A5-F9CEE5F7ADF5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example-Node-Size-Changed", "Example-Node-Size-Changed\Example-Node-Size-Changed.csproj", "{2CBB2EE0-90C3-42DA-B8BD-64D1AD2CA26B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_Customize_ScrollViewer", "Example_Customize_ScrollViewer\Example_Customize_ScrollViewer.csproj", "{486580D2-9911-42DE-957C-2C43350C3FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example-NodeEngine", "Example-NodeEngine\Example-NodeEngine.csproj", "{E5741B8D-12E3-4E5B-972C-27B85028C6FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,5 +44,9 @@ Global
 		{486580D2-9911-42DE-957C-2C43350C3FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{486580D2-9911-42DE-957C-2C43350C3FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{486580D2-9911-42DE-957C-2C43350C3FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5741B8D-12E3-4E5B-972C-27B85028C6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5741B8D-12E3-4E5B-972C-27B85028C6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5741B8D-12E3-4E5B-972C-27B85028C6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5741B8D-12E3-4E5B-972C-27B85028C6FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
