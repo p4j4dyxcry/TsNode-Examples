@@ -12,7 +12,8 @@
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/TsNode;component/Template.xaml" />
+                <ResourceDictionary Source="/TsNode;component/Template.xaml" />
+                <ResourceDictionary Source="/TsNode;component/Preset/Presettemplate.xaml" />
                 <ResourceDictionary Source="GripperStyle.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
