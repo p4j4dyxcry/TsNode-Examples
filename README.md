@@ -25,15 +25,6 @@ MVVMパターンで実装したサンプルアプリケーションです。
 
 Undo/Redoの実装、プロパティツリー等、ヒストリー機能などの一般的なアプリケーションの実装を兼ね備えています。
 
-
-![ts-node-anime](https://user-images.githubusercontent.com/11988607/56496933-6e9e0580-6536-11e9-8a80-967e5dcdc8a6.gif)
-
-## [Gripper Sample](https://github.com/p4j4dyxcry/TsNode-Examples/tree/master/Example-Node-Size-Changed)
-ノードのサイズを変更するサンプルプログラムです。
-
-![](https://github.com/p4j4dyxcry/TsNode-Examples/blob/master/ScreenShots/gripper.gif)
-
-
 ※このサンプルアプリケーションの作成には下記オープンソースライブラリを利用しています。
 
 System.Reactive
@@ -50,3 +41,11 @@ Microsoft.CSharp
 
 Microsoft.Xaml.Behaviors.Wpf
 - https://www.nuget.org/packages/Microsoft.Xaml.Behaviors.Wpf/
+
+
+![ts-node-anime](https://user-images.githubusercontent.com/11988607/56496933-6e9e0580-6536-11e9-8a80-967e5dcdc8a6.gif)
+
+## [Gripper Sample](https://github.com/p4j4dyxcry/TsNode-Examples/tree/master/Example-Node-Size-Changed)
+ノードのサイズを変更するサンプルプログラムです。
+
+![](https://github.com/p4j4dyxcry/TsNode-Examples/blob/master/ScreenShots/gripper.gif)
